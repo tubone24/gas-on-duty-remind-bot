@@ -5,6 +5,7 @@ function main() {
   var date = new Date();
   
   if (isHoriday(date)) {
+    updateTransaction();
     return true;
   }
   
@@ -52,7 +53,7 @@ function getPersonsInfo () {
 
 function notifySlack (todayPersonInfo) {
   
-  const url = 'https://hooks.slack.com/services/xxxx'
+  const url = 'https://hooks.slack.com/services/xxxxxxxxx'
   
   var jsonData =
   {
