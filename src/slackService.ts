@@ -4,7 +4,7 @@ export class SlackService {
       {
         username: 'DailyBot',
         icon_emoji: ':robot_face:',
-        text: todayPersonInfo[2]+' 今日のRedmine担当は'+todayPersonInfo[1]+'さん！ よろしくおねがいします！！'
+        text: todayPersonInfo[2]+' 今日のファシリテート担当は'+todayPersonInfo[1]+'さん！ よろしくおねがいします！！'
       };
     const payload: string = JSON.stringify(jsonData);
 
